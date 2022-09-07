@@ -16,14 +16,13 @@ def main():
     allOptionsPath = args.all_options
 
     if os.path.exists(blurPath):
-        print('Exists')
+        func.blur(blurPath)
 
     if os.path.exists(grayScalePath):
         print('Exists')
 
     if os.path.exists(allOptionsPath):
         print('Exists')
-    print(args)
 
 if __name__ == '__main__':
     main()
